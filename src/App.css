@@ -5,6 +5,7 @@
 body{
   margin: 0;
   padding: 3rem;
+  font-family: "Inter", serif;
 }
 
 .btn{
@@ -12,7 +13,7 @@ body{
   height: 1.5rem;
   border: none;
   font-weight: 600;
-  font-family: "Inter", serif;
+  cursor: pointer;
 }
 
 .btn-square{
@@ -54,4 +55,64 @@ body{
 .btn-pink{
   background-color: #FCE7F3;
   color: #9D174D;
+}
+
+.banner{
+  border-radius: 6px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.banner-text{
+  margin-left: 0.3rem;
+  margin-top: -.2rem;
+}
+.banner h3{
+  margin: 0;
+}
+
+.banner p{
+  margin: 0.3rem 0 0 0;
+}
+
+.banner-success{
+  background-color: #ECFDF5;
+  color: #34D399;
+}
+.banner-success h3{
+  color: #065F46;
+}
+.banner-success p{
+  color: #047857;
+}
+.banner-warning{
+  background-color: #FFFBEB;
+  color: #FBBF24;
+}
+.banner-warning h3{
+  color: #92400E;
+}
+.banner-warning p{
+  color: #B45309;
+}
+.banner-error{
+  background-color: #FEF2F2;
+  color: #F87171;
+}
+.banner-error h3{
+  color: #92400E;
+}
+.banner-error p{
+  color: #B45309;
+}
+.banner-neutral{
+  background-color: #EFF6FF;
+  color: #60A5FA;
+}
+.banner-neutral h3{
+  color: #1E40AF;
+}
+.banner-neutral p{
+  color: #1C51B9;
 }
