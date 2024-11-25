@@ -116,3 +116,98 @@ body{
 .banner-neutral p{
   color: #1C51B9;
 }
+
+/* Testimonial design */
+.image{
+  width: 90%;
+  border-radius: 12px;
+  display: block;
+  margin: 0 auto;
+}
+
+.details{
+  background-color: #2545B8;
+  height:fit-content;
+  margin-top: -8rem;
+  padding: 10rem 5% 10%;
+}
+
+.quotes{
+  width: 2.7rem;
+}
+
+.quote-text,
+cite{
+  color: #FFFFFF;
+}
+
+.job-description{
+  font-weight: 200;
+}
+cite{
+  display: block;
+}
+
+/* no src */
+.nosrc-text{
+  color:#111827;
+}
+.cation{
+  color: #2E59F3;
+  font-weight: 600;
+}
+
+.work{
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
+
+.mark-image{
+  width: 2rem;
+  margin-right: 0.3rem;
+}
+
+.authortitle2{
+  font-weight: 200;
+}
+
+
+@media (min-width:740px) {
+
+  body{
+    overflow: hidden;
+    height: 100%;
+  }
+  
+  .testimonial{
+    display: flex;
+  }
+  .image{
+    width: 24rem;
+    height: 29rem;
+    position: fixed;
+    left: 5rem;
+    top: 2rem;
+  }
+  .details{
+    margin-top: 2rem;
+    /* margin-left: -24rem; */
+    padding-left: 28rem;
+    padding-top: 5rem;
+    top: 6rem;
+  }
+
+  .testymonial{
+    text-align: center;
+  }
+  .authortitle1{
+    display: inline;
+    margin-right: 0.3rem;
+    border-right: 2px solid #2E59F3;
+    padding-right: 0.3rem;
+  }
+  .authortitle2{
+    display: inline;
+  }
+}

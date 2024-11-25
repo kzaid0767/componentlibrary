@@ -3,9 +3,10 @@ import Badge from './badges/Badge'
 import Banner from './banners/Banner'
 import { TbXboxXFilled } from "react-icons/tb";
 import { HiInformationCircle } from "react-icons/hi";
-
+import metie from './assets/metie.jpg'
 import { FaCheckCircle } from "react-icons/fa";
 import { GoAlertFill } from "react-icons/go";
+import Testimonial from './testimonials/Testimonial';
 import './App.css'
 
 /* 
@@ -38,7 +39,10 @@ function App() {
 
   return (
     <>
-      <Badge shape={shp} color={colr} onClick={handleClick} >Click</Badge>
+      <Testimonial src="" author="Kassim Zaid" title="Freelance Web Dev">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. 
+        Amet feugiat est integer dolor auctor adipiscing nunc urna, sit.
+      </Testimonial>
     </>
   )
 }
